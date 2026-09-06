@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lista de Productos</title>
+</head>
+
+<body>
+
+    <h1>Lista de Productos</h1>
+
+    <div class="controles">
+
+        <select id="filtroCategoria">
+            <option value="todas">Todas las categorías</option>
+            <option value="Tecnología">Tecnología</option>
+            <option value="Accesorios">Accesorios</option>
+            <option value="Audio">Audio</option>
+            <option value="Gaming">Gaming</option>
+        </select>
+
+        <select id="ordenPrecio">
+            <option value="ninguno">Ordenar por precio</option>
+            <option value="menor">Menor a mayor</option>
+            <option value="mayor">Mayor a menor</option>
+        </select>
+
+    </div>
+
+    <div id="total">
+        Total: $0
+    </div>
+
+    <div id="productos"></div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
