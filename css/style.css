@@ -1,0 +1,68 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .controles {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        select,
+        button {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        #productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .producto {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .producto h3 {
+            margin-top: 0;
+        }
+
+        .precio {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .activo {
+            color: green;
+        }
+
+        .inactivo {
+            color: red;
+        }
+
+        .eliminar {
+            margin-top: 10px;
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #total {
+            text-align: center;
+            margin: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
